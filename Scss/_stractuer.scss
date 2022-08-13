@@ -1,0 +1,231 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+     font-family: "";
+}
+
+#search {
+     border-radius: 8%;
+     background-color: #f0f0f1 !important;
+     border: 0 !important;
+     margin-left: 10rem;
+
+     &:focus {
+          border: none !important;
+     }
+
+}
+
+ul li {
+     list-style: none !important;
+
+}
+
+
+///dots for  slider
+.owl-dots {
+     text-align: initial !important;
+}
+
+///////Responsivibility
+
+.body {
+     margin-left: auto !important;
+     margin-right: auto !important;
+}
+
+.hed {
+     @media screen and(max-width:976px) {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+     }
+
+     @media screen and(max-width:796px) {
+          #search {
+               margin-left: 1rem !important;
+          }
+     }
+
+     @media screen and(max-width:650px) {
+          #search {
+               padding-left: 0 !important;
+          }
+     }
+
+     &-input {
+          @media screen and(max-width:596px) {
+               display: none !important;
+
+          }
+     }
+}
+
+.hedear {
+     @media screen and(max-width:996px) {
+          display: none !important;
+
+     }
+
+}
+
+// nav{
+//      @media screen and(min-width:996px){
+//           display: none !important;
+//      }
+// }
+
+
+.amazing {
+     @media screen and(max-width:993px) {
+          .container {
+               width: 100% !important;
+               max-width: 100% !important;
+               overflow-x: auto !important;
+          }
+
+     }
+
+
+}
+.market-p{
+     @media screen and (max-width:510px){
+          display: none !important;
+     }
+}
+
+.market-p-w {
+     @media screen and(max-width:767px) {
+          padding-left: 0 !important;
+     }
+     @media screen and(max-width:560px) {
+          display: none !important;
+     }
+}
+
+.bg-light {
+     @media screen and(max-width:768px) {
+          margin-bottom: 10px;
+     }
+}
+
+
+.market-items {
+     @media screen and(max-width:768px) {
+          display: none !important;
+
+     }
+}
+
+.market-item6 {
+     @media screen and(max-width:991px) {
+          display: none !important;
+     }
+}
+
+.market-item5 {
+     @media screen and(max-width:991px) {
+          display: none !important;
+     }
+}
+
+.res {
+     @media screen and(max-width:768px) {
+          flex-wrap: nowrap !important;
+          overflow-x: hidden;
+
+     }
+}
+
+.mb {
+     @media screen and(max-width:991px) {
+          margin-bottom: 3rem !important;
+     }
+
+     @media screen and(min-width:768px) {
+          margin-bottom: 3rem;
+     }
+
+}
+
+.digiclub-img {
+     @media screen and(max-width:768px) {
+          padding-top: 1.5rem;
+          padding-bottom: 1.5rem;
+
+     }
+}
+
+
+.galery {
+     @media screen and(max-width:575px) {
+          .galery-item {
+               text-align: center;
+               margin-bottom: 20px;
+          }
+
+     }
+
+
+}
+
+
+.offer {
+     @media screen and(max-width:996px) {
+          padding: 0.5rem !important
+     }
+}
+
+
+.galery01 {
+     @media screen and(max-width:796px) {
+          img {
+               padding: 3rem !important;
+
+          }
+
+     }
+}
+
+.reading-item {
+     @media screen and(max-width:768px) {
+          margin-bottom: 15px;
+     }
+}
+
+nav {
+     @media screen and(min-width:996px) {
+          display: none;
+     }
+     // //////
+     // @media screen and(max-width:996px) {
+     //      display: none;
+     // }
+}
+
+.footer {
+     &-row {
+          @media screen and(max-width:945px) {
+               display: none;
+          }
+     }
+     .disn{
+          @media screen and(max-width:496px) {
+               display: none !important;
+          }
+     }
+     .w-20{
+          @media screen and(max-width:768px){
+               width: 30% !important;
+          }
+     }
+     .w-15{
+          @media screen and(max-width:768px){
+               width: 30% !important
+          }
+     }
+
+}
